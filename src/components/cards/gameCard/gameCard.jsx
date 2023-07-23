@@ -6,7 +6,7 @@ import Button from '@/components/forms/button/button'
 export default function GameCard() {
     return(
         <div className={styles.gamecard}>
-          <Image src='/products/watch-dogs.jpg' width={300} height={155}/>
+          <Image className={styles.image} src='/products/watch-dogs.jpg' width={300} height={155}/>
           <div className={styles.info}>
             <h3 className={styles.title}>Watch Dogs</h3>
             <p className={styles.category}>Ação, estratégia, multijogador.</p>

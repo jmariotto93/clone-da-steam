@@ -45,15 +45,7 @@ export default function Home() {
                 handleAddProduct({name: 'Battlefield 1', price:48.00 , image:'battlefield 1.jpg'})
                 }
               />
-              <SaleCard 
-                image={'battlefield 5.png'}
-                discount='-30%'
-                fullPrice='120,00'
-                discountPrice='84,00'
-                onAdd={() => 
-                handleAddProduct({name: 'Battlefield 5', price:84.00, image:'battlefield 5.png'})
-                }
-              />
+              
               <SaleCard 
                 image='the witcher.png'
                 discount='-50%'
@@ -72,24 +64,7 @@ export default function Home() {
                 handleAddProduct({name: 'Warzone', price: 0.0, image:'warzone.jpg'})
                 }
               />
-              <SaleCard 
-                image='hell-let-loose.jpg'
-                discount='-50%'
-                fullPrice='300,00'
-                discountPrice='150,00'
-                onAdd={() => 
-                handleAddProduct({name: 'Hell Let Loose', price:150.00, image:'hell-let-loose.jpg'})
-                }
-              />
-              <SaleCard 
-                image='dota-2.jpg'
-                discount='0%'
-                fullPrice='00,00'
-                discountPrice=' Jogue agora!'
-                onAdd={() => 
-                handleAddProduct({name: 'dota-2', price: 0.0, image:'dota-2.jpg'})
-                }
-              />
+              
             </div>
           </div>
 

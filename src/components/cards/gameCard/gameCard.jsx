@@ -12,7 +12,7 @@ export default function GameCard( {image, title, category, fullPrice, onAdd} ) {
             <p className={styles.category}>{category}</p>
             <div className={styles.pricing}>
                 <h2 className={styles.price}>R${fullPrice}</h2>
-                <Button onclick={onAdd}>Adicionar ao carinho</Button>
+                <Button onClick={onAdd}>Adicionar ao carinho</Button>
             </div>
           </div>
         </div>

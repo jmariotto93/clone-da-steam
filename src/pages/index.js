@@ -85,12 +85,18 @@ export default function Home() {
                 title='Diablo IV'
                 category='Ação, aventura, estratégia e RPG'              
                 fullPrice='230,00'
+                onAdd={() => 
+                handleAddProduct({name: 'Diablo IV', price: 230.00, image:'Diablo4.jpg'})
+                }
               />
               <GameCard
                 image={'Sombras-de-Mordor.jpg'}
                 title='Sombras de Mordor'
                 category='Ação, aventura e RPG'              
                 fullPrice='60,00'
+                onAdd={() => 
+                handleAddProduct({name: 'Sombras de Mordor', price: 60.00, image:'Sombras-de-Mordor.jpg'})
+                }
               />
             </div>
           </div>       
